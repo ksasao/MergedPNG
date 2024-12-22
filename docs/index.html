@@ -7,16 +7,22 @@
 </head>
 <body>
     <h1>1枚のPNG画像に地図と高度データを埋め込み</h1>
-    複数のPNG画像をそのままバイナリで結合すると、多くのブラウザやアプリケーションでは
-    1枚目の画像のみが表示されます。一方、2枚目の画像はJavaScript等でPNGヘッダ・フッタを
-    探してその部分からインスタンス化すれば<a href="https://gsj-seamless.jp/labs/datapng/">データPNG</a>などとして用いることができます。
-    このサンプルは、1枚目の画像にマウスカーソルを合わせると表示されていない2枚目の画像から
-    高度情報を計算してその地点の高度を表示します。<br/><br/>
-    <a href="https://github.com/ksasao/MergedPNG/tree/main/docs">リポジトリ</a>
+    <div>
+        複数のPNG画像をそのままバイナリで結合すると、多くのブラウザやアプリケーションでは
+        1枚目の画像のみが表示されます。一方、2枚目の画像はJavaScript等でPNGヘッダ・フッタを
+        探してその部分からインスタンス化すれば<a href="https://gsj-seamless.jp/labs/datapng/">データPNG</a>などとして用いることができます。
+        このサンプルは、1枚目の画像にマウスカーソルを合わせると表示されていない2枚目の画像から
+        高度情報を計算してその地点の高度を表示します。
+    </div>
+    <div>
+        <a href="https://github.com/ksasao/MergedPNG/tree/main/docs">リポジトリ</a>
+    </div>
     <div>
         <h2>マップ</h2>
         画像および高度データは「地理院タイル」を使用しています。
-        <canvas id="image1Canvas"></canvas>
+        <div>
+            <canvas id="image1Canvas"></canvas>
+        </div>
     </div>
     <div>
         <h2>Elevation</h2>
